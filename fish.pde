@@ -1,4 +1,4 @@
-class Peixe{
+class Fish{
   float fishWidth;
   float fishHeight;
   float xPos;
@@ -12,7 +12,7 @@ class Peixe{
   float G;
   float B;
  
-  public Peixe(){
+  public Fish(){
     fishWidth=random(20,70);
     R= (int) random(255);
     G= (int) random(255);
@@ -46,7 +46,7 @@ class Peixe{
     yPos += speedY;
   }
  
-  public void desenha()
+  public void draw()
   {  
     if(sinalX>0){
       fill(R,G,B);
